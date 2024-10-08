@@ -1,0 +1,4 @@
+The browser passes the request to the DNS Server which converts the domain name into the IP address of the site.
+Then DNS Server passes the request to the main server where the website is stored.
+And the main server now sends the response to the web browser or to the user.
+The user is now able to view the site.
