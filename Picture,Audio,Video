@@ -1,0 +1,48 @@
+#Picture
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1>The picture element</h1>
+
+<p>Resize the browser window to load different images.</p>
+
+<picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+</body>
+</html>
+-------------------------------------------------------
+#Video
+<!DOCTYPE html>
+<html>
+<body>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+</body>
+</html>
+---------------------------------------------------------
+#Audio
+<!DOCTYPE html>
+<html>
+<body>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
