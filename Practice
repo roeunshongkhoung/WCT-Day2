@@ -1,0 +1,150 @@
+ការអនុវត្តទៅលើការបង្កើតprofile
+----#index.html-----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/Myprofile.jpg" type="image/x-icon" />
+
+    <h1 class="First">
+      My Profile
+      <h2 class="loream">
+        You can click on my profile to access my facebook account
+      </h2>
+    </h1>
+    <a href="https://www.facebook.com/sean.soulong/" target="_blank"
+      ><img src="images/Myprofile.jpg" alt="Profile"
+    /></a>
+  </head>
+  <body>
+    <h2 class="Myprofile">MY PROFILE</h2>
+    <h3>Email</h3>
+    <ol>
+      <il class="mail">longsou1225@gmail.com</il>
+    </ol>
+
+    <h3>First Nmae</h3>
+    <p class="name">Soulong</p>
+
+    <h3>Last Name</h3>
+    <p class="name">Sean</p>
+
+    <h3>Display Name</h3>
+    <p class="display name">TheSoulux@134</p>
+
+    <h3>language</h3>
+    <p class="language name">English</p>
+
+    <h3>Password</h3>
+    <p class="password name">?????</p>
+
+    <h3>Confirm Password</h3>
+    <p class="Confirm name">?????</p>
+
+    <h2><a class="index" href="about.html"> Save Change</a></h2>
+  </body>
+</html>
+-----------------------------------------------------
+----#about.html----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Done</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3e6d836b0b.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      i {
+        color: rgb(71, 109, 13);
+      }
+    </style>
+  </head>
+  <body class="backe">
+    <p class="about-p">Successful <i class="fa-solid fa-check"></i></p>
+    <a class="about index about-hover" href="index.html"> Go backe to Edite</a>
+  </body>
+</html>
+---------------------------------------------
+---style.css--
+html {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+Profile {
+  color: rgb(48, 207, 61);
+}
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+.save {
+  color: #2393c4;
+}
+.First {
+  font-size: 60px;
+  color: blue;
+}
+.Myprofile {
+  color: blue;
+}
+.loream {
+  font-size: 30px;
+  color: black(37, 36, 54, 0.283);
+}
+.mycontect {
+  font-size: 20px;
+  color: rgb(53, 53, 63);
+}
+.name {
+  color: turquoise;
+}
+.Confirm {
+  margin-bottom: 5%;
+}
+.mail {
+  list-style: square;
+  color: rgb(48, 207, 61);
+}
+
+.index {
+  text-decoration: none;
+  border: 2px solid rgb(11, 11, 11);
+  padding: 0.5rem 1rem;
+  border-radius: 15%;
+}
+.index:hover {
+  border: 3px solid rgb(16, 16, 16);
+  box-shadow: 0 4px 0 rgb(12, 12, 12);
+}
+.about-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 2rem;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 2rem;
+  border: 4px solid rgb(11, 11, 11);
+  gap: 2rem;
+  padding: 1.2rem 2rem;
+  background-color: wheat;
+  border-radius: 10%;
+}
+.about-hover:hover {
+  border: 4px solid goldenrod;
+  background-color: goldenrod;
+  box-shadow: -7px 7px 0 rgb(11, 11, 10);
